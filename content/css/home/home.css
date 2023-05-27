@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+ :root{
+    --primary-Color:rgb(119, 0, 255);
+    --secondary-Color:rgb(255, 72, 0);
+    --secondary-Color2:rgb(255, 128, 78);
+    
+ }
+ .display-flex{
+    display: flex;
+ }
+ ul{
+    list-style-type: none;
+ }
+ ul a{
+   text-decoration: none;
+ }
+.mg-left-auto{
+    margin-left: auto;
+}
+/* --------------------------------------- */
+header.primary-header{
+    background-color:  rgb(225, 221, 255);
+    width: 100vmax;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+ .mg-t7{
+margin-top: 7em;
+ }
+.nav-list-container {
+     
+    align-items: center;
+}
+.primary-nav-list{
+    margin-left: auto;
+}
+.primary-nav-list ul {
+gap: 3em;
+margin-right: auto;
+}
+.container{
+    --max-width:1110px;
+    --padding:1rem;
+    width: min(var(--max-width),100% - (var(--padding)*2));
+    /* background-color: var(--secondary-Color); */
+    margin-inline: auto;
+}
+
+.button{
+    border: none;
+background-color:var(--secondary-Color);
+padding: 1em 2.5em;
+border-radius: 100vmax;
+box-shadow: 0  1em 1em -1em red;
+}
+
+.button:hover{
+    background-color: var(--primary-Color); 
+
+}
+
+main{
+    height: 300vh;
+    /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),        */
+         /* linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),       */
+          /* linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+          margin-top: 5.5em;
+}

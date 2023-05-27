@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+  <link rel="stylesheet" href="node_modules/slick-carousel-jquery-fix/slick/slick.css">
+  <link rel="stylesheet" href="node_modules/slick-carousel-jquery-fix/slick/slick-theme.css">
+  <link rel="stylesheet" href="content/css/home/home.css">
+
+  <link rel="stylesheet" href="content/css/home/hero_banner_slider.css">
+  <link rel="stylesheet" href="content/scss/small-card/card.css">
+  <link rel="stylesheet" href="content/scss/courses-card-tab/courses-card.css">
+  <link rel="stylesheet" href="content/scss/services/servcises.css">
+  <!-- Add the slick-theme.css if you want default styling -->
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/> -->
+  <!-- Add the slick-theme.css if you want default styling -->
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/> -->
+</head>
+
+<body>
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-list-container display-flex">
+
+
+        <a href="#"><img src="assect/logo.svg" alt=""></a>
+        <nav class="primary-nav-list " role="list">
+          <ul class="display-flex nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Servise</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <button class="button mg-left-auto">Get Started</button>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!--  -->
+    <Section class="slider" id="slider">
+
+
+      <div class="slides">
+        <img src="https://hhsbanner.com/wp-content/uploads/2019/03/victoria_falls-900x300.jpg" width="100%" />
+      </div>
+
+      <div class="slides">
+        <img src="https://blog.cognifit.com/wp-content/uploads/2019/11/hiking-900x300.jpg" width="100%" />
+      </div>
+
+      <div class="slides">
+        <img
+          src="https://travelfree.info/wp-content/uploads/2018/02/croatia-waterfall-in-deep-forest-of-Cr-12755165-900x300.jpg"
+          width="100%" />
+      </div>
+
+      <div class="slides">
+        <img src="https://www.piemonturismo.it/site/wp-content/uploads/2014/07/13-laghi-grande.jpg" width="100%" />
+      </div>
+
+      <div class="slides">
+        <img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg"
+          width="100%" />
+      </div>
+
+      <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
+          class="dot"></span><span class="dot"></span></div>
+
+
+    </Section>
+    <!--  -->
+
+    <section>
+      <div class="container ">
+        <div class="small-card-main">
+          <div class="small-card">
+            <div><img src="assect/images/Student Male.png" alt="" srcset=""></div>
+            <div>
+              <p>Enrolled Student</p>
+              <p class="counter" data-count="250">0+</p>
+            </div>
+          </div>
+          <div class="small-card">
+            <div><img src="assect/images/Student Male.png" alt="" srcset=""></div>
+            <div>
+              <p>Enrolled Student</p>
+              <p class="counter" data-count="150">0</p>
+            </div>
+          </div>
+          <div class="small-card">
+            <div><img src="assect/images/Student Male.png" alt="" srcset=""></div>
+            <div>
+              <p>Enrolled Student</p>
+              <p class="counter" data-count="30">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mg-t7">
+        <div class="card-slider">
+          <div class="card">
+            <!-- Notice that both the image and the product title are in the same link. This can massively reduce the number of redundant tabstops on a page with lots of products, creating a better UX for keyboard-only and screen reader users. -->
+            <a href="https://accessible360.com" target="_blank" class="main-link">
+              <h2 class="title">First product title</h2>
+
+              <!-- This image has a descriptive alt attribute, so it helps to place it after the heading in the DOM. Flexbox is used to place it above the heading visually (see the CSS tab to see how). -->
+              <div class="image">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/blanca-paloma-sanchez-500x500.jpg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <!-- The badge is placed right next to prices so its read out by screen readers in a more logical way. -->
+            <div class="badge">Sale</div>
+
+            <div class="price">
+              <span class="new-price">$4.49</span>
+              <span class="original-price">
+                <span class="sr-only">Originally:</span>
+                $10.00
+              </span>
+            </div>
+
+            <!-- Star icons don't convey anything to screen readers on their own, so we need to provide screen-reader-only text with their meaning. -->
+            <div class="rating">
+              <span class="sr-only">Rating: 3 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+
+              <a href="https://accessible360.com/#reviews" class="reviews-link">77 reviews</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://accessible360.com" target="_blank" class="main-link">
+              <h2 class="title">Second product title</h2>
+
+              <div class="image">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/erol-ahmed-500x500.jpg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+            <div class="price">
+              <span class="new-price">$19.99</span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 4 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+
+              <a href="https://accessible360.com/#reviews" class="reviews-link">30 reviews</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://accessible360.com" target="_blank" class="main-link">
+              <h2 class="title">Third product title</h2>
+
+              <div class="image">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/armando-castillejo-500x500.jpg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="badge">Sale</div>
+
+            <div class="price">
+              <span class="new-price">$12.99</span>
+              <span class="original-price">
+                <span class="sr-only">Originally:</span>
+                $15.99
+              </span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 2 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+
+              <a href="https://accessible360.com/#reviews" class="reviews-link">0 reviews</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://accessible360.com" target="_blank" class="main-link">
+              <h2 class="title">Fourth product title</h2>
+
+              <div class="image">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/calle-macarone-500x500.jpg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+
+            <div class="price">
+              <span class="new-price">$9.99</span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 5 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+
+              <a href="https://accessible360.com/#reviews" class="reviews-link">7 reviews</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="https://accessible360.com" target="_blank" class="main-link">
+              <h2 class="title">Fifth Product title</h2>
+
+              <div class="image">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/galina-n-300x300.jpg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="price">
+              <span class="new-price">$0.99</span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 5 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+
+              <a href="https://accessible360.com/#reviews" class="reviews-link">9 reviews</a>
+            </div>
+          </div>
+          <div class="our_I">
+            <div class="our_img">
+              <img src="assect/images/ReadyPlayerMe-Avatar.jpeg">
+              <div class="our_soci">
+                <div class="soc_i">1</div>
+                <div class="soc_i">2</div>
+                <div class="soc_i">3</div>
+              </div>
+            </div>
+            <div class="our_bdy">
+
+              <div class="our_dtls">
+                <span>Shivraj Tiwaskar</span>
+                <small>UI UX ,Web Designer</small>
+                <hr>
+              </div>
+              <div class="our_fot">
+                <span><small> 5 year exp,</small></span>
+                <span><small>30 Lecture </small></span>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <section class="our_intro mg-t7">
+      <h2>Our Instructors</h2>
+      <div class="container gap display-flex">
+
+        <div class="our_I">
+          <div class="our_img">
+            <img src="assect/images/ReadyPlayerMe-Avatar.jpeg">
+            <div class="our_soci">
+              <div class="soc_i">1</div>
+              <div class="soc_i">2</div>
+              <div class="soc_i">3</div>
+            </div>
+          </div>
+          <div class="our_bdy">
+
+            <div class="our_dtls">
+              <span>Shivraj Tiwaskar</span>
+              <small>UI UX ,Web Designer</small>
+              <hr>
+            </div>
+            <div class="our_fot">
+              <span><small> 5 year exp,</small></span>
+              <span><small>30 Lecture </small></span>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="our_I">
+          <div class="our_img">
+            <img src="assect/images/ReadyPlayerMe-Avatar.jpeg">
+            <div class="our_soci">
+              <div class="soc_i">1</div>
+              <div class="soc_i">2</div>
+              <div class="soc_i">3</div>
+            </div>
+          </div>
+          <div class="our_bdy">
+
+            <div class="our_dtls">
+              <span>Shivraj Tiwaskar</span>
+              <small>UI UX ,Web Designer</small>
+              <hr>
+            </div>
+            <div class="our_fot">
+              <span><small> 5 year exp,</small></span>
+              <span><small>30 Lecture </small></span>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="our_I">
+          <div class="our_img">
+            <img src="assect/images/ReadyPlayerMe-Avatar.jpeg">
+            <div class="our_soci">
+              <div class="soc_i">1</div>
+              <div class="soc_i">2</div>
+              <div class="soc_i">3</div>
+            </div>
+          </div>
+          <div class="our_bdy">
+
+            <div class="our_dtls">
+              <span>Shivraj Tiwaskar</span>
+              <small>UI UX ,Web Designer</small>
+              <hr>
+            </div>
+            <div class="our_fot">
+              <span><small> 5 year exp,</small></span>
+              <span><small>30 Lecture </small></span>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="our_I">
+          <div class="our_img">
+            <img src="assect/images/ReadyPlayerMe-Avatar.jpeg">
+            <div class="our_soci">
+              <div class="soc_i">1</div>
+              <div class="soc_i">2</div>
+              <div class="soc_i">3</div>
+            </div>
+          </div>
+          <div class="our_bdy">
+
+            <div class="our_dtls">
+              <span>Shivraj Tiwaskar</span>
+              <small>UI UX ,Web Designer</small>
+              <hr>
+            </div>
+            <div class="our_fot">
+              <span><small> 5 year exp,</small></span>
+              <span><small>30 Lecture </small></span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our_intro mg-t7">
+      <div class="container ">5</div>
+    </section>
+
+    <section class=" mg-t7">
+      <div class="container ">
+        <div class="services even">
+          <div class="serv-m ">
+            <div class="ser_img">
+              <img src="assect/images/ReadyPlayerMe-Avatar.jpeg" alt="" srcset="">
+            </div>
+            <div class="serv_details">
+              <div>
+              <h2>Ditital Marketing Services</h2>
+              <article>Our team of digital strategists provides state-of-the-art SEO services, including search engine
+                visibility, ranking for keywords, landing page optimization, content optimization, SEO maintenance and
+                reporting.</article>
+            </div>
+            </div>
+          </div>
+          <div class="serv-m">
+            <div class="ser_img">
+              <img src="assect/images/ReadyPlayerMe-Avatar.jpeg" alt="" srcset="">
+            </div>
+            <div class="serv_details">
+              <div>
+              <h2>Ditital Marketing Services</h2>
+              <article>Our team of digital strategists provides state-of-the-art SEO services, including search engine
+                visibility, ranking for keywords, landing page optimization, content optimization, SEO maintenance and
+                reporting.</article>
+            </div>
+            </div>
+          </div>
+          <div class="serv-m ">
+            <div class="ser_img">
+              <img src="assect/images/ReadyPlayerMe-Avatar.jpeg" alt="" srcset="">
+            </div>
+            <div class="serv_details">
+              <div>
+              <h2>Ditital Marketing Services</h2>
+              <article>Our team of digital strategists provides state-of-the-art SEO services, including search engine
+                visibility, ranking for keywords, landing page optimization, content optimization, SEO maintenance and
+                reporting.</article>
+            </div>
+            </div>
+          </div>
+          <div class="serv-m">
+            
+            <div class="serv_details">
+              <div>
+              <h2>Ditital Marketing Services</h2>
+              <article>Our team of digital strategists provides state-of-the-art SEO services, including search engine
+                visibility, ranking for keywords, landing page optimization, content optimization, SEO maintenance and
+                reporting.</article>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+  </main>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script> -->
+  <script src="node_modules/slick-carousel-jquery-fix/slick/slick.min.js"></script>
+  <script src="content/js/banner.js"></script>
+  <script src="content/js/small-card.js"></script>
+  <script src="content/js/courses-card.js"></script>
+</body>
+
+</html>

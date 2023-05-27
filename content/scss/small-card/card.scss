@@ -1,0 +1,47 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+ *{font-family: 'Rubik', sans-serif;}
+.small-card-main {
+  --card-color: #ffffff;
+  --card-hover-color: #f3f3f3;
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .small-card {
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    background-color: var(--card-color);
+    border-radius: 1em;
+    align-items: center;
+    width: -moz-fit-content;
+    width: 16em;
+    justify-content: space-around;
+    transition: all .5s ease-out;
+    box-shadow: 4px 4px 11px -4px #838080;;
+    &:hover {
+      background-color: var(--card-hover-color);
+    }
+
+    & div:first-child {
+      margin: 10px;
+     
+
+      img {
+        width: 3em;
+      }
+    }
+    & p{
+        font-size:  1.2em;
+        font-weight: 500;
+    }
+    & p:last-child{
+        font-size:  1.3em;
+        font-weight: 800;
+    }
+  }
+}
